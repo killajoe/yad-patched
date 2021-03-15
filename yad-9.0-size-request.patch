@@ -1,6 +1,6 @@
-diff -Nrup -U 4 yad-8.0/src/main.c yad-8.0-OK/src/main.c
---- yad-8.0/src/main.c	2020-11-01 01:11:21.039606281 +0300
-+++ yad-8.0-OK/src/main.c	2020-11-01 01:08:25.420968575 +0300
+diff -Nrup -U 4 yad-9.0/src/main.c yad-9.0-OK/src/main.c
+--- yad-9.0/src/main.c	2020-11-01 01:11:21.039606281 +0300
++++ yad-9.0-OK/src/main.c	2020-11-01 01:08:25.420968575 +0300
 @@ -536,8 +536,13 @@ create_dialog (void)
  
    /* parse geometry or move window, if given. must be after showing widget */
