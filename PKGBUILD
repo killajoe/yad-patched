@@ -20,7 +20,7 @@ sha256sums=('5c9538b7f242de715249e9f7d30108c0706d23219b5b1bb85cfead6ae77abff3'
 
 prepare() {
     cd "$pkgname-$pkgver"
-  patch -d "${srcdir}/${pkgname}-${pkgver}" -p1 -i ../yad-8.0-size-request.patch
+  patch -d "${srcdir}/${pkgname}-${pkgver}" -p1 -i ../yad-9.0-size-request.patch
 }
 
 build() {
